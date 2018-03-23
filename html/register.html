@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+<link rel="stylesheet" href="../css/register.css" />
+</head>
+<body>
+<!--top-->
+<div class="top">
+	<div class="topL">
+		<a href="index.html" target="_blank">
+			<img src="../images/logo.jpg" alt="" />
+		</a>	
+	</div>
+	<div class="topR">
+		<span>嘿！欢迎来到美鲜冻品商城！</span>
+		<a href="javascript:;">请登录</a>
+		<a href="javascript:;">免费注册</a>
+	</div>
+</div>
+<!--register-banner-->
+<div id="banner">
+	<a href="javascript:;">
+		<img src="../images/register_banner.jpg" alt=""/>
+	</a>
+</div>
+<!--register-form-->
+<div class="form">
+	<div class="formT">
+		<h2>注册新用户</h2>
+		<h3>已经注册，
+			<a href="login.html">现在登录&gt;</a>
+		</h3>
+	</div>
+<div class="formB">
+	<div class="formBL">
+		<!--用户名-->
+		<div class="_name">
+			<span>*</span>
+			<label for="user_name">用户名:</label>
+			<div class="inp_name">
+				<input type="text" placeholder="请输入用户名" id="user_name" />
+			</div>
+		</div>
+		<div class="name_notice"></div>
+		<!--密码-->
+		<div class="_password">
+			<span>*</span>
+			<label for="user_password">密码:</label>
+			<div class="inp_password">
+				<input type="password" placeholder="请输入密码" id="user_password" />
+			</div>
+		</div>
+		<div class="password_notice"></div>
+		<div class="password_strength">
+			<p class="p1">弱</p>
+			<p class="p2">中</p>
+			<p class="p3">强</p>
+		</div>
+		<!--确认密码-->
+		<div class="two_password">
+			<span>*</span>
+			<label for="confirm_password">确认密码:</label>
+			<div class="inp_two_password">
+				<input type="password" placeholder="确认密码" id="confirm_password" />
+			</div>
+		</div>
+		<div class="confirm_notice"></div>
+		<!--手机-->
+		<div class="_phone">
+			<span>*</span>
+			<label for="user_phone">验证手机:</label>
+			<div class="inp_phone">
+				<input type="text" placeholder="请输入验证手机号" id="user_phone" />
+			</div>
+		</div>
+		<div class="phone_notice"></div>
+		<!--验证码-->
+		<div class="_authcode">
+			<span>*</span>
+			<label for="user_authcode">验证码:</label>
+			<div class="inp_authcode">
+				<input type="text" placeholder="请输入右侧验证码" id="user_authcode" />
+			</div>
+			<h2 class="rand_code"></h2>
+			<a href="javascript:;" id="refresh">刷新一下?</a>
+		</div>
+		<div class="authcode_notice"></div>
+		<!--同意用户协议-->
+		<div class="agreement">
+			<input type="checkbox" id="agreement_inp" checked="checked"/>
+			我已阅读并同意<a href="#">用户协议</a>
+		</div>
+		<div class="submit">
+			<input type="submit" value="提交" id="submit_inp"/>
+		</div>
+	</div>
+<!--右侧的图片-->
+<div class="registerImg">
+	<img src="../images/regist_index.jpg" alt="" />
+</div>
+</div>
+</div>
+<!--footer-->
+<div class="footerOne">
+	<p>&copy;2005-2018 美鲜冻品商城 版权所有，并保留所有权利。</p>
+	<p>济南市历下区龙奥北路8号海玉兰广场3号楼606 Tel:4006-728-726</p>
+	<p>ICP备案证书号：鲁ICP备11002915号</p>
+</div>
+<div class="footerTwo">
+	<img src="../images/footer_info_r1_c1.jpg" alt="" />
+	<img src="../images/footer_info_r1_c3.jpg" alt="" />
+	<img src="../images/footer_info_r1_c7.jpg" alt="" />
+	<img src="../images/zhifubao.png" alt="" />
+	<img src="../images/wangjing.png" alt="" />
+</div>
+
+
+
+<script src="../js/jquery-1.11.3.js"></script>
+<script src="../js/jquery.cookie.js"></script>
+<script src="../js/register.js"></script>
+</body>
+</html>

@@ -1,0 +1,223 @@
+@import"public";
+.top,.form{
+    width:990px;
+    margin:0 auto;
+}
+.top{
+    height: 120px;
+    .topL{
+        float:left;
+        height: 97px;
+        width:344px;
+        padding-top:23px;
+    }
+    .topR{
+        float:right;
+        width:276px;
+        height: 120px;
+        line-height: 120px;
+        span{
+            font-size:12px;
+            color:gray;
+        }
+        a{
+            font-size:12px;
+            color:#1A9634;
+            margin-right: 10px;
+        }
+    }
+}
+//banner
+#banner{
+    height: 100px;
+    img{
+        width:100%;
+        height: 100px;
+    }
+}
+//form
+.form{
+   height: 705px;
+   border:1px solid #F1F1F1;
+   margin-top:10px;
+   .formT{
+       width:990px;
+       height: 56px;
+       border-bottom:1px solid #ccc;
+       h2{
+           font-size:16px;
+           float:left;
+           height: 56px;
+           line-height: 56px;
+           margin-left:50px;
+       }
+       h3{
+           font-size:16px;
+           float:right;
+           height: 56px;
+           line-height: 56px;
+           margin-right:50px;
+           font-family: "微软雅黑";
+           a{
+               color:#199733;
+           }
+       }
+   }
+   .formB{
+      width:990px;
+      height: 648px;
+      .formBL{
+          float:left;
+         width:446px;
+         margin:30px 0 0 78px;
+         ._name,._password,._phone,.two_password,._authcode{
+             width:446px;
+             height: 38px;
+             line-height:38px;
+             overflow:hidden ;
+//           float:left;
+             span{
+                 color:red;
+                 float:left;
+                 font-size:20px;
+                 line-height:45px;//设置了高度就相当于有了高度
+                 margin:0 10px;
+             }
+             label{
+                 font-size:14px;
+                 color:#666;
+                 float:left;
+                 margin-right:4px;
+             }
+             div{
+                 width:298px;
+                 height: 36px;
+                 padding-left:4px;
+                 border:1px solid #ccc;
+                 border-radius:5px;
+                 float:left;
+                 input{
+                     width:290px;
+                     height: 30px;
+                 }
+             }
+         } 
+         ._name{
+             label{
+                 margin-right:19px;
+             }
+         }
+         ._password{
+             label{
+                 margin-right:32px;
+             }
+         }
+         .password_strength{
+             width:120px;
+             height: 40px;
+             margin-left:270px;
+             margin-bottom:20px;
+             p{
+                 float:left;
+                 width:30px;
+                 height:35px;
+                 line-height: 35px;
+                 margin-right: 10px;
+                 text-align: center;
+                 font-size:14px;
+                 color:gray;
+             }
+             .p1{
+                 border-bottom:5px solid red;
+             }
+             .p2{
+                 border-bottom:5px solid yellow;
+             }
+             .p3{
+                 border-bottom:5px solid green;
+             }
+             .borderO{
+                 border-bottom:0;
+             }
+         }
+         ._authcode{
+             label{
+                 margin-right:18px;
+             }
+             .inp_authcode{
+                 width:126px;
+                 input{
+                     width:120px;
+                 }
+             }
+             .rand_code{
+                 float:left;
+                 width:120px;
+                 height: 36px;
+                 border:1px solid #ccc;
+                 margin:0 5px;
+                 line-height: 36px;
+                 text-align: center;
+                 font-size:20px;
+             }
+             a{
+                 color:#199733;
+                 float: left;
+             }
+         }
+         .name_notice,.password_notice,.confirm_notice,.phone_notice,.authcode_notice{
+             width:400px;
+             height: 20px;
+             font-size:14px;
+             margin:5px 0 5px 92px;
+         }
+         .agreement{
+            a{
+                 color:#199733;
+            }
+            a:hover{
+                 text-decoration: underline;
+            }
+                
+         }
+         .submit{
+             padding:30px 0 0 50px;
+             input{
+                 border-radius: 5px;
+                 width:264px;
+                 height: 40px;
+                 color:white;
+                 font-size:20px;
+                 background:#199733;
+             }
+         }
+      }
+      .registerImg{
+          float:right;
+          width:378px;
+          height: 354px;
+          margin-top:30px;
+      } 
+   }
+}
+//footer
+.footerOne{
+    width: 1200px;
+    height: 67px;
+    font-size:12px;
+    text-align: center;
+    line-height: 20px;
+    margin:30px                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         auto;
+    color:#959595;
+}
+//footer
+.footerTwo{
+    margin:0 auto;
+    width:888px;
+    padding-left:312px;
+    margin-bottom:100px;
+    img{
+       float:left; 
+       margin-right:15px;
+    }
+}

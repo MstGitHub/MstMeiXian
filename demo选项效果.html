@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+<style>
+	*{
+		margin:0;
+		padding:0;
+	}
+	li{
+		list-style: none;
+	}
+	a{
+		text-decoration: none;
+		color: black;
+	}
+	.dis-select{
+    width:488px;
+    float:right;
+    border-bottom:0;
+    margin-top:8px;
+    }
+   .dis-select li{
+        float:left;
+        text-align: center;
+        line-height: 34px;
+        position: relative;
+        }
+   .dis-select li  a{
+      /* position: relative;*/
+       font-size:12px;
+       float:left;
+       display: block; 
+       /*width:80px;*/
+       height: 34px;
+       border-top:1px solid #f1f1f1;
+       border-left:1px solid #f1f1f1;
+       background:white;
+    }
+      .dis-select li a span{
+      	display: block;
+      	width:80px;
+        height: 34px;
+        border-top:1px solid #f1f1f1;
+       border-left:1px solid #f1f1f1;
+      }
+      .dis-select li  .last{
+      	/*visibility: hidden;*/
+        border-right: 1px solid #f1f1f1;
+    }
+       .dis-select li a:hover{
+        z-index:10;
+        position: absolute;
+        top:-1px;
+        right: 0;
+        border-left: 1px solid #1A9733;
+        border-right: 1px solid #1A9733;
+        border-top:2px solid #1A9733;
+        border-bottom: 0;
+    }
+   
+
+</style>
+</head>
+<body>
+	<ul class="dis-select">
+		<li>
+			<a href="#">
+				<span>意义</span>
+			</a>
+		</li>
+		<li>
+			<a href="#">
+				<span>尔尔</span>
+			</a>
+		</li>
+		<li>
+			<a href="#">
+				<span>三三</span>
+			</a>
+		</li>
+		<li>
+			<a href="#">
+				<span>四四</span>
+			</a>
+		</li>
+		<li>
+			<a class="last" href="#">
+				<span>溜溜</span>
+				</a>
+		</li>
+	</ul>
+</body>
+</html>
